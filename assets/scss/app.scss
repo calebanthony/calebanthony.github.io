@@ -1,0 +1,23 @@
+// 1. Initial Bulma import
+@import "~bulma/sass/utilities/_all";
+@import "~bulma/sass/base/_all";
+
+// 2. Custom variable changes
+@import "variables";
+
+// 3. Rest of Bulma, only the components we're using
+@import "~bulma/sass/grid/_all";
+@import "~bulma/sass/layout/_all";
+@import "~bulma/sass/components/card";
+@import "~bulma/sass/components/navbar";
+@import "~bulma/sass/elements/button";
+@import "~bulma/sass/elements/container";
+@import "~bulma/sass/elements/content";
+@import "~bulma/sass/elements/form";
+@import "~bulma/sass/elements/notification";
+@import "~bulma/sass/elements/tag";
+@import "~bulma/sass/elements/title";
+
+// 4. Overrides to Bulma
+@import "overrides";
+@import "custom";
